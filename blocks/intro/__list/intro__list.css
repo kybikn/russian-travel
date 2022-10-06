@@ -1,0 +1,13 @@
+.intro__list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+  margin: -18px 0 0 -55px;
+  white-space: pre;
+}

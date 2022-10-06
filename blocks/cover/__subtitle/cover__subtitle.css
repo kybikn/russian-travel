@@ -1,0 +1,20 @@
+.cover__subtitle {
+  left: 460px;
+  position: absolute;
+  top: 440px;
+  text-align: center;
+  max-width: 28%;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  /* margin: auto; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* position: calc(100% - 824px); */
+}

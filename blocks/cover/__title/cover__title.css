@@ -1,0 +1,25 @@
+.cover__title {
+  /* flex-direction: column; */
+  /* left: 120px; */
+  left: 385px;
+  position: absolute;
+  top: 258px;
+  max-width: 40%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #ffffff;
+  margin: 0 0 30px 0;
+  text-align: center;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  /* margin: auto; */
+}
+
+/* .cover__title:hover .cover {
+  background: #2a2c2f;
+  opacity: 0.2;
+} */

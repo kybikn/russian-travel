@@ -1,0 +1,7 @@
+.places {
+  padding: 85px 148px 0 148px;
+  margin: auto;
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: repeat(5, 1fr); */
+}

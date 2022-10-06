@@ -1,0 +1,14 @@
+.cover__background {
+  width: 100%;
+  object-fit: cover;
+  background: #2a2c2f;
+  opacity: 0.7;
+  /* position: absolute;
+  max-height: 740px; */
+  /* position: relative; */
+}
+
+.cover__background:hover {
+  background: #2a2c2f;
+  opacity: 0.2;
+}

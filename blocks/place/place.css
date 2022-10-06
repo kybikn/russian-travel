@@ -1,0 +1,15 @@
+.place {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  margin-bottom: 80px;
+  display: grid;
+  /* height: 660px; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: 660px; */
+  /* grid-template-columns: 460px 484px;
+    grid-template-rows: repeat(2, 460px); */
+  grid-template-areas:
+    "header website"
+    "header website"
+    "image text";
+}
