@@ -10,3 +10,9 @@
     margin-left: 30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin-left: 28px;
+  }
+}

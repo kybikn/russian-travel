@@ -14,3 +14,9 @@
     max-width: 1024px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+}

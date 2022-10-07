@@ -27,3 +27,11 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    left: 200px;
+    top: 315px;
+    max-width: 48%;
+  }
+}

@@ -3,3 +3,9 @@
     margin-bottom: -30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__website_margin-s {
+    margin-bottom: 37px;
+  }
+}
