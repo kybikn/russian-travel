@@ -28,10 +28,12 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__title/_margin/place__title_margin.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__website/_bottom/place__website_bottom.css);
-@import url(../blocks/place/__website/_center/place__website_center.css);
+@import url(../blocks/place/__website/_margin-l/place__website_margin-l.css);
+@import url(../blocks/place/__website/_margin-m/place__website_margin-m.css);
+@import url(../blocks/place/__website/_margin-s/place__website_margin-s.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__text/place__text.css);

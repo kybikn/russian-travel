@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+  .place__website_margin-s {
+    margin-bottom: -30px;
+  }
+}

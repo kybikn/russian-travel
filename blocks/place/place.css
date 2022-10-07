@@ -1,15 +1,32 @@
 .place {
-  /* display: flex; */
-  /* justify-content: space-between; */
+  /* grid-template-rows: 152px, 460px;
+  grid-template-columns: 460px, 484px; */
   margin-bottom: 80px;
   display: grid;
-  /* height: 660px; */
-  /* grid-template-columns: repeat(2, 1fr); */
-  /* grid-template-rows: 660px; */
-  /* grid-template-columns: 460px 484px;
-    grid-template-rows: repeat(2, 460px); */
   grid-template-areas:
     "header website"
     "header website"
+    /* "image text" */
     "image text";
+  /* gap: 48px 40px; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* height: 660px; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: 660px; */
+  /* grid-template-columns: 460px 484px; */
+  /* grid-template-rows: repeat(2, 460px); */
+  /* width: 584px; */
+  /* grid-template-columns: 460px, auto; */
+  /* grid-template-rows: minmax(35px, 152px), minmax(320px, 460px);
+  grid-template-columns: minmax(320px, 460px), minmax(288px, 484px); */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-columns: 460px, auto; */
+  /* grid-template-rows: repeat(2, 1fr), auto; */
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    margin-bottom: 55px;
+  }
 }

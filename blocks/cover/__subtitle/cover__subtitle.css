@@ -18,3 +18,12 @@
   /* align-items: center; */
   /* position: calc(100% - 824px); */
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    left: 330px;
+    top: 420px;
+    max-width: 35%;
+    margin: 0;
+  }
+}

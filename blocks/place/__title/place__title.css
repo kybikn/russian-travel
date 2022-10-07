@@ -9,3 +9,9 @@
   margin: 0 0 48px 0;
   width: 460px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    width: 440px;
+  }
+}

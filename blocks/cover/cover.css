@@ -3,3 +3,9 @@
   padding: 12px 48px 0 48px;
   position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding: 37px 0 0 0;
+  }
+}

@@ -23,3 +23,11 @@
   background: #2a2c2f;
   opacity: 0.2;
 } */
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    left: 255px;
+    top: 235px;
+    max-width: 50%;
+  }
+}
