@@ -5,9 +5,13 @@
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
-  /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start; */
-  margin: -18px 0 0 -55px;
-  white-space: pre;
+  /* margin: -18px 0 0 -55px; */
+  margin: 0;
+  white-space: pre-line;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    /* margin: -18px 0 0 0; */
+  }
 }

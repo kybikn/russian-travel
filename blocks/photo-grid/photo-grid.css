@@ -14,3 +14,9 @@
     padding: 0 24px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    padding: 0 16px;
+  }
+}

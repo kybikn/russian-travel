@@ -20,3 +20,9 @@
     max-width: 768px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
+}

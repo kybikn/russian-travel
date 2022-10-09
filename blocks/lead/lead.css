@@ -3,6 +3,8 @@
   /* margin: 56px auto 0 auto; */
   display: flex;
   flex-direction: column;
+  /* margin: 0 auto; */
+  /* white-space: pre-line; */
 }
 
 @media screen and (max-width: 1024px) {

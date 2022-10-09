@@ -1,5 +1,5 @@
 .header {
-  background: #2a2c2f;
+  /* background: #2a2c2f; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,5 +10,11 @@
 @media screen and (max-width: 768px) {
   .header {
     padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 0 16px;
   }
 }

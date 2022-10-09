@@ -7,3 +7,9 @@
     margin-top: -20px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__website_margin-l {
+    margin-top: -15px;
+  }
+}
