@@ -1,20 +1,17 @@
 .places {
-  padding: 85px 148px 0 148px;
+  padding: 85px 148px 0;
   margin: auto;
-  /* display: grid; */
-  /* grid-template-columns: repeat(2, 1fr); */
-  /* grid-template-rows: repeat(5, 1fr); */
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    padding: 85px 48px 0 48px;
+    padding: 85px 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    padding: 88px 24px 0 24px;
+    padding: 88px 24px 0;
   }
 }
 

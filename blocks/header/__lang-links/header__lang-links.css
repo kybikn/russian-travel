@@ -1,6 +1,9 @@
 .header__lang-links {
-  /* text-align: right; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
   gap: 18px;
   margin-bottom: 5px;

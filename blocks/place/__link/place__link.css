@@ -4,9 +4,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
   color: #ffffff;
   cursor: pointer;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
   transition: 0.8s;
 }
 

@@ -1,8 +1,9 @@
 .header {
-  /* background: #2a2c2f; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0 48px;
 }

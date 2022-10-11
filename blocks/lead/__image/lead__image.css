@@ -1,10 +1,5 @@
 .lead__image {
-  /* margin-bottom: 8px; */
-  /* margin: 0 auto 8px auto; */
   max-width: 984px;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 @media screen and (max-width: 1024px) {

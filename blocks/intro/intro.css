@@ -1,24 +1,23 @@
 .intro {
-  padding: 92px 148px 92px 148px;
   max-width: 690px;
+  padding: 92px 148px 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding: 92px 48px 92px 48px;
+    padding: 92px 48px 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    padding: 88px 24px 88px 24px;
+    padding: 88px 24px 88px;
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    padding: 64px 16px 64px 16px;
-    max-width: 100%;
+    padding: 64px 16px 64px;
   }
 }

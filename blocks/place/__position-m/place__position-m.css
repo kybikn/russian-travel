@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) {
+  .place__position-m {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__position-m {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__position-m {
+    margin-top: 25px;
+  }
+}

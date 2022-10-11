@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./page/index.css">
     <title>Путешествия по России</title>
@@ -19,7 +20,7 @@
             </div>
         </header>
 
-        <main>
+        <main class="main">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -36,12 +37,11 @@
                     Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их
                     в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                     интересные места, достойные вашего отпуска.</p>
-                <p class="intro__list">
-                    Часовых поясов 11
-                    Объектов природного наследия ЮНЕСКО 12
-                    Объектов культурного наследия ЮНЕСКО 16
-                    Природных заповедников 105
-                    Аэропортов 241</p>
+                <p class="intro__list">Часовых поясов<span class="intro__item"> 11</span>
+                    Объектов природного наследия ЮНЕСКО<span class="intro__item"> 12</span>
+                    Объектов культурного наследия ЮНЕСКО<span class="intro__item"> 16</span>
+                    Природных заповедников<span class="intro__item"> 105</span>
+                    Аэропортов<span class="intro__item"> 241</span></p>
             </section>
 
             <section class="photo-grid" aria-label="Блок с фото">
@@ -56,11 +56,11 @@
                             class="photo-grid__item"></li>
                     <li><img src="./images/photo-grid-arisa.jpg" alt="колесо машины на прозрачном льду"
                             class="photo-grid__item"></li>
-                    <li><img src="./images/photo-grid-baikal.jpg" alt="берег байкала в окружении горных холмов"
+                    <li><img src="./images/photo-grid-baikal.jpg" alt="берег Байкала в окружении горных холмов"
                             class="photo-grid__item"></li>
                     <li><img src="./images/photo-grid-elbrus.jpg" alt="снежные вершины Эльбруса"
                             class="photo-grid__item"></li>
-                    <li><img src="./images/photo-grid-kondratiev.jpg" alt="знак пешеходного перехода"
+                    <li><img src="./images/photo-grid-kondratiev.jpg" alt="знак пешеходного перехода и волнорезы"
                             class="photo-grid__item"></li>
                     <li><img src="./images/photo-grid-kamchatka-1.jpg" alt="горы Камчатки в тумане"
                             class="photo-grid__item"></li>
@@ -83,7 +83,7 @@
                     <img src="./images/place-kosa.jpg" alt="коса Балтийского моря" class="place__image">
                     <div class="place__text">
                         <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
-                            горизонта — спокойного Куршского залива с одной стороны подёрнутого рябью волн Балтийского
+                            горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского
                             моря с другой. Уникальная природная зона на краю российского анклава.</p>
                         <p class="place__paragraph">На этом Калининградская область не заканчивается. Для
                             путешественника и исследователя там же по соседству — самая западная точка России,
@@ -106,12 +106,12 @@
                         </p>
                         <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического
                             фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных
-                            воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную к
+                            воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору
                             сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть
                             северное сияние начинает сбываться с билетом в Мурманск.</p>
                     </div>
                 </div>
-                <div class="place">
+                <div class="place place__position-s">
                     <h3 class="place__title">Алтай</h3>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
@@ -120,12 +120,10 @@
                     </div>
                     <img src="./images/place-altai.jpg" alt="ноутбук на фоне Алтайского леса" class="place__image">
                     <div class="place__text">
-                        <p class="place__paragraph">Алтай — одно из красивейших мест в России.
-                            В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
-                            соснами,
-                            горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с
-                            невидимым
-                            чудом здешних мест — горным воздухом.</p>
+                        <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за
+                            гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А
+                            если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест —
+                            горным воздухом.</p>
                         <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом.
                             Так
                             вы
@@ -136,7 +134,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="place place__position">
+                <div class="place place__position-m">
                     <h3 class="place__title">Зимний Байкал</h3>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
@@ -144,20 +142,18 @@
                     </div>
                     <img src="./images/place-winter-baikal.jpg" alt="замерзшее озеро Байкал" class="place__image">
                     <div class="place__text">
-                        <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
-                            в мире. Многие также знают, что это самый большой источник пресной воды и одно из
-                            красивейших
-                            мест в России.</p>
+                        <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро&nbsp;в мире. Многие также
+                            знают, что это самый большой источник пресной воды и одно из
+                            красивейших мест в России.</p>
                         <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место
-                            для соревнований
-                            по
+                            для соревнований по
                             скийорингу. Это такой вид спорта, когда лыжник привязывает себя
                             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019
                             года на
                             фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
                 </div>
-                <div class="place place__position">
+                <div class="place place__position-m">
                     <h3 class="place__title">Карелия</h3>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
@@ -180,16 +176,11 @@
             </section>
 
             <section class="cover">
-                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background">
+                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+                    <h3 class="cover__title">До Байкала «на собаках»</h3>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                        на электричках.</p>
                 </a>
-                <h3 class="cover__title">До Байкала «на собаках»</h3>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
-                    на электричках.</p>
-
-                <!-- <h3 class="cover__title">До Байкала «на собаках»</h3>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
-                    на электричках.</p>
-                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background"></a> -->
             </section>
         </main>
 
