@@ -20,14 +20,12 @@
 }
 
 @media screen and (max-width: 880px) {
-  /* @media screen and (max-width: 768px) { */
   .cover__title {
     max-width: 70%;
   }
 }
 
 @media screen and (max-width: 690px) {
-  /* @media screen and (max-width: 320px) { */
   .cover__title {
     max-width: 76%;
     margin-bottom: 16px;

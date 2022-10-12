@@ -17,14 +17,12 @@
   }
 }
 
-/* @media screen and (max-width: 768px) { */
 @media screen and (max-width: 880px) {
   .lead__subtitle {
     max-width: 70%;
   }
 }
 
-/* @media screen and (max-width: 320px) { */
 @media screen and (max-width: 690px) {
   .lead__subtitle {
     max-width: 90%;

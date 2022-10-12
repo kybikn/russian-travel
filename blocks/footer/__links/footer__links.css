@@ -9,8 +9,6 @@
 }
 
 @media screen and (max-width: 690px) {
-  /* @media screen and (max-width: 320px) { */
-  /* @media screen and (max-width: 715px) { */
   .footer__links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

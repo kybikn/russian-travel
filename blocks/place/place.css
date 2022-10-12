@@ -17,7 +17,6 @@
 }
 
 @media screen and (max-width: 880px) {
-  /* @media screen and (max-width: 768px) { */
   .place {
     grid-column-gap: 28px;
     grid-template-columns: 340px 1fr;
@@ -26,7 +25,6 @@
 }
 
 @media screen and (max-width: 690px) {
-  /* @media screen and (max-width: 320px) { */
   .place {
     grid-template-areas:
       "title"
@@ -35,15 +33,5 @@
       "text";
     grid-template-columns: 320px 1fr;
     margin-bottom: 50px;
-  }
-
-  .place:nth-child(5) {
-    /* margin-bottom: 30px; */
-  }
-
-  .place:last-child {
-    /* padding-bottom: 20px; */
-    /* margin-bottom: 20px; */
-    /* margin-top: 20px; */
   }
 }
