@@ -1,5 +1,6 @@
 .place {
   grid-column-gap: 40px;
+  grid-template-columns: 460px 1fr;
   margin-bottom: 80px;
   display: grid;
   grid-template-areas:
@@ -10,24 +11,39 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-column-gap: 30px;
-    margin-bottom: 60px;
+    grid-template-columns: 440px 1fr;
+    margin-bottom: 80px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
+  /* @media screen and (max-width: 768px) { */
   .place {
     grid-column-gap: 28px;
-    margin-bottom: 50px;
+    grid-template-columns: 340px 1fr;
+    margin-bottom: 75px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
+  /* @media screen and (max-width: 320px) { */
   .place {
     grid-template-areas:
       "title"
       "website"
       "image"
       "text";
-    margin-bottom: 25px;
+    grid-template-columns: 320px 1fr;
+    margin-bottom: 50px;
+  }
+
+  .place:nth-child(5) {
+    /* margin-bottom: 30px; */
+  }
+
+  .place:last-child {
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
   }
 }

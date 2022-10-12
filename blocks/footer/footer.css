@@ -8,18 +8,32 @@
   padding: 95px 48px 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
+  /* @media screen and (max-width: 768px) { */
   .footer {
-    padding: 88px 24px 24px;
+    padding-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+    /* padding: 88px 24px 24px; */
   }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 715px) {
+  .footer {
+    padding: 88px 10px 24px;
+  }
+} */
+
+@media screen and (max-width: 690px) {
+  /* @media screen and (max-width: 320px) { */
+  /* @media screen and (max-width: 715px) { */
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 62px 24px 24px 16px;
+    padding-top: 64px;
+    padding-left: 16px;
+    /* padding: 64px 24px 24px 16px; */
   }
 }

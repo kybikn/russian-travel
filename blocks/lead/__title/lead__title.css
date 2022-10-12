@@ -1,7 +1,7 @@
 .lead__title {
   max-width: 70%;
   margin: 0 auto 32px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -13,20 +13,20 @@
 @media screen and (max-width: 1024px) {
   .lead__title {
     max-width: 75%;
-    margin: 0 120px 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) { */
+@media screen and (max-width: 880px) {
   .lead__title {
     max-width: 100%;
-    margin: 0 24px 32px;
   }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) { */
+@media screen and (max-width: 690px) {
   .lead__title {
-    margin: 0 16px 16px;
+    margin-bottom: 16px;
     font-size: 40px;
     line-height: 44px;
   }
