@@ -1,7 +1,7 @@
 .footer__copyright {
   margin: 0;
   text-align: right;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -9,7 +9,8 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
+  /* @media screen and (max-width: 320px) { */
   .footer__copyright {
     margin-top: 45px;
     text-align: left;

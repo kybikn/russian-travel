@@ -2,7 +2,7 @@
   grid-area: title;
   margin: 0 0 48px;
   max-width: 460px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -16,19 +16,25 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
+  /* @media screen and (max-width: 768px) { */
   .place__title {
     max-width: 330px;
-    margin: 0 0 45px;
+    margin-bottom: 45px;
+    /* margin: 0 0 45px; */
     font-size: 42px;
     line-height: 46px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
+  /* @media screen and (max-width: 320px) { */
   .place__title {
     max-width: 288px;
-    margin: 0 16px 32px;
+    margin-bottom: 32px;
+    margin-right: 16px;
+    margin-left: 16px;
+    /* margin: 0 16px 32px; */
     font-size: 32px;
     line-height: 35px;
   }
