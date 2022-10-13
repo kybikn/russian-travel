@@ -16,6 +16,7 @@
   z-index: 1;
   background-image: url("../../../images/cover-trains.jpg");
   background-position: center;
+  background-size: cover;
   text-decoration: none;
   cursor: pointer;
   min-height: 740px;

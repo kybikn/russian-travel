@@ -8,6 +8,10 @@
     "image text";
 }
 
+.place:last-child {
+  margin-bottom: 92px;
+}
+
 @media screen and (max-width: 1024px) {
   .place {
     grid-column-gap: 30px;
@@ -22,6 +26,10 @@
     grid-template-columns: 340px 1fr;
     margin-bottom: 75px;
   }
+
+  .place:last-child {
+    margin-bottom: 90px;
+  }
 }
 
 @media screen and (max-width: 690px) {
@@ -33,5 +41,9 @@
       "text";
     grid-template-columns: 320px 1fr;
     margin-bottom: 50px;
+  }
+
+  .place:last-child {
+    margin-bottom: 66px;
   }
 }

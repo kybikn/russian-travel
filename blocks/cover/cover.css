@@ -1,5 +1,5 @@
 .cover {
-  padding: 12px 48px 0;
+  padding: 0 48px;
   min-height: 740px;
 }
 
@@ -14,13 +14,11 @@
 @media screen and (max-width: 880px) {
   .cover {
     min-height: 480px;
-    padding-top: 18px;
   }
 }
 
 @media screen and (max-width: 690px) {
   .cover {
     min-height: 200px;
-    padding-top: 0px;
   }
 }
