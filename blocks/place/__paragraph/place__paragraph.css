@@ -4,8 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  /* line-height: 26.08px; */
-  line-height: 163%;
+  line-height: 29.34px;
   color: #ffffff;
 }
 
@@ -29,7 +28,6 @@
 
 @media screen and (max-width: 690px) {
   .place__paragraph {
-    margin-top: 0;
     margin-left: 16px;
     margin-right: 16px;
     max-width: 288px;
