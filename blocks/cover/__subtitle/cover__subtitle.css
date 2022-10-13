@@ -1,5 +1,5 @@
 .cover__subtitle {
-  max-width: 40%;
+  max-width: 360px;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -13,15 +13,8 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 880px) {
-  .cover__subtitle {
-    max-width: 60%;
-  }
-}
-
 @media screen and (max-width: 690px) {
   .cover__subtitle {
-    max-width: 90%;
     font-size: 14px;
     line-height: 16px;
   }
