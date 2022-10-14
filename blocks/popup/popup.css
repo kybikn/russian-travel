@@ -1,0 +1,8 @@
+.popup {
+  height: 550px;
+  width: 670px;
+  display: flex;
+  justify-content: space-between;
+  background: #e5e5e5;
+  position: relative;
+}
