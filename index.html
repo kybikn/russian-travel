@@ -15,37 +15,89 @@
         <header class="header">
             <div class="header__logo">
             </div>
-            <!-- --------------------------- -->
             <button class="header__button">Login</button>
-            <div class="overlay active">
-                <!-- <div class="close-all"></div> -->
-                <form class="popup">
-                    <img src="./images/close.svg" alt="Кнопка закрыть" class="close">
-                    <div class="popup__form">
-                        <!-- <form> -->
+
+            <div class="popup">
+                <form class="popup__form">
+                    <img src="./images/close.svg" alt="Кнопка закрыть" class="popup__close">
+                    <div class="popup__form-signIn">
                         <div class="popup__button-box">
-                            <button class="popup__button popup__text popup__button_type_in-s">Войти</button>
-                            <button class="popup__button popup__text popup__button_type_reg">Зарегистрироваться</button>
+                            <button type="button"
+                                class="popup__button popup__text popup__button_type_signIn">Войти</button>
+                            <button type="button"
+                                class="popup__button popup__text popup__button_type_reg">Зарегистрироваться</button>
                         </div>
 
-                        <input type="text" class="popup__button popup__button_type_text"
-                            placeholder="Имя пользователя / эл.почта">
-                        <input type="text" class="popup__button popup__button_type_text" placeholder="Пароль">
+                        <div><img src="./images/name.svg" alt="" class="popup__img-login"> <input type="text"
+                                class="popup__button popup__button_type_text" placeholder="Имя пользователя / эл.почта">
+                        </div>
+
+                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                class="popup__button popup__button_type_text" placeholder="Пароль"></div>
 
                         <div class="popup__check">
                             <div>
                                 <input type="checkbox" id="check" name="check" class="popup__check-button">
                                 <label for="check" class="popup__check-text">Запомнить меня</label>
                             </div>
-                            <p class="popup__check-text popup__check-text-underline">Восстановить пароль?</p>
+                            <p class="popup__check-text popup__check-link">Восстановить пароль?</p>
                         </div>
+                        <button
+                            class="popup__button popup__text popup__button_type_enter popup__button_type_enter-signIn">Войти</button>
+                    </div>
 
-                        <button class="popup__button popup__text popup__button_type_in-m">Войти</button>
-                        <!-- </form> -->
+                    <div class="popup__form-reg">
+                        <div class="popup__button-box">
+                            <button type="button"
+                                class="popup__button popup__text popup__button_type_signIn popup__button_type_signIn-active">Войти</button>
+                            <button type="button"
+                                class="popup__button popup__text popup__button_type_reg popup__button_type_reg-active">Зарегистрироваться</button>
+                        </div>
+                        <div>
+                            <img src="./images/login.svg" alt="" class="popup__img-login">
+                            <input type="text" class="popup__button popup__button_type_text" placeholder="Логин">
+                        </div>
+                        <div><img src="./images/email.svg" alt="" class="popup__img-login"><input type="email"
+                                class="popup__button popup__button_type_text" placeholder="Email">
+                        </div>
+                        <div><img src="./images/name.svg" alt="" class="popup__img-login"><input type="text"
+                                class="popup__button popup__button_type_text" placeholder="Ваше имя"></div>
+                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                class="popup__button popup__button_type_text" placeholder="Пароль"></div>
+                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                class="popup__button popup__button_type_text" placeholder="Подтверждение пароля"></div>
+
+                        <div class="popup__check">
+                            <div>
+                                <input type="checkbox" id="checkReg" name="check" class="popup__check-button">
+                                <label for="checkReg" class="popup__check-text">Я&nbsp;принимаю</label>
+                            </div>
+                            <a href="https://policies.google.com/?hl=ru" target="_blank" rel="noopener noreferrer"
+                                class="popup__check-text popup__check-text-underline">Условия пользования и
+                                Политику
+                                конфиденциальности</a>
+                        </div>
+                        <button
+                            class="popup__button popup__text popup__button_type_enter popup__button_type_enter-reg">Зарегистрироваться</button>
+
+                    </div>
+
+                    <div class="popup__form-reconstPass">
+                        <button class="popup__button popup__text popup__button_type_reconst">
+                            Восстановление пароля</button>
+                        <div><img src="./images/email.svg" alt="" class="popup__img-login"><input type="email"
+                                class="popup__button popup__button_type_text" placeholder="Email">
+                        </div>
+                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                class="popup__button popup__button_type_text" placeholder="Новый пароль"></div>
+                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                class="popup__button popup__button_type_text" placeholder="Подтверждение пароля"></div>
+                        <button
+                            class="popup__button popup__text popup__button_type_enter popup__button_type_enter-reconst">Восстановить
+                            пароль</button>
                     </div>
                 </form>
             </div>
-            <!-- --------------------------- -->
 
             <ul class="header__lang-links">
                 <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>

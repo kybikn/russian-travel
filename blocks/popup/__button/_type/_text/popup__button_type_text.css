@@ -1,5 +1,7 @@
 .popup__button_type_text {
   background: #ffffff;
+  width: 480px;
+  margin-left: 15px;
   padding-left: 15px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
