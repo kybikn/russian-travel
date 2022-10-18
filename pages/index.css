@@ -6,9 +6,35 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_active/popup_active.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__form-signIn/popup__form-signIn.css);
+@import url(../blocks/popup/__form-reg/popup__form-reg.css);
+@import url(../blocks/popup/__form-reconstPass/popup__form-reconstPass.css);
+@import url(../blocks/popup/__form-signIn/_active/popup__form-signIn_active.css);
+@import url(../blocks/popup/__form-reg/_active/popup__form-reg_active.css);
+@import url(../blocks/popup/__form-reconstPass/_active/popup__form-reconstPass_active.css);
+@import url(../blocks/popup/__button-box/popup__button-box.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__button/_type/_signIn/popup__button_type_signIn.css);
+@import url(../blocks/popup/__button/_type/_reg/popup__button_type_reg.css);
+@import url(../blocks/popup/__button/_type/_signIn-active/popup__button_type_signIn-active.css);
+@import url(../blocks/popup/__button/_type/_reg-active/popup__button_type_reg-active.css);
+@import url(../blocks/popup/__button/_type/_enter/popup__button_type_enter.css);
+@import url(../blocks/popup/__button/_type/_text/popup__button_type_text.css);
+@import url(../blocks/popup/__button/_type/_reconst/popup__button_type_reconst.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__check/popup__check.css);
+@import url(../blocks/popup/__check-button/popup__check-button.css);
+@import url(../blocks/popup/__check-text/popup__check-text.css);
+@import url(../blocks/popup/__check-link/popup__check-link.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);

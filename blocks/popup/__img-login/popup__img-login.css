@@ -1,0 +1,8 @@
+.popup__img-login {
+  /* background-image: url(../../../images/svg/add-user.svg); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position: 15px 10px; */
+  width: 25px;
+  height: 25px;
+}

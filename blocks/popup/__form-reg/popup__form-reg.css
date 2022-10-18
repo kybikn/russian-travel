@@ -1,0 +1,10 @@
+.popup__form-reg {
+  display: none;
+  height: 690px;
+  width: 550px;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px;
+  margin: 0 auto;
+}
