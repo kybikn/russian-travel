@@ -77,8 +77,8 @@ popup.addEventListener("click", (e) => {
   }
 });
 
-reg.addEventListener("click", openReg);
 signIn.addEventListener("click", openSignIn);
+reg.addEventListener("click", openReg);
 reconstLink.addEventListener("click", openReconst);
 
 entersignIn.addEventListener("click", alertSignIn);

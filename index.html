@@ -18,7 +18,7 @@
             <button class="header__button">Login</button>
 
             <div class="popup">
-                <form class="popup__form">
+                <div class="popup__form">
                     <img src="./images/close.svg" alt="Кнопка закрыть" class="popup__close">
                     <div class="popup__form-signIn">
                         <div class="popup__button-box">
@@ -27,17 +27,18 @@
                             <button type="button"
                                 class="popup__button popup__text popup__button_type_reg">Зарегистрироваться</button>
                         </div>
-
-                        <div><img src="./images/name.svg" alt="" class="popup__img-login"> <input type="text"
-                                class="popup__button popup__button_type_text" placeholder="Имя пользователя / эл.почта">
-                        </div>
-
-                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                class="popup__button popup__button_type_text" placeholder="Пароль"></div>
-
+                        <form>
+                            <div><img src="./images/name.svg" alt="" class="popup__img-login">
+                                <input type="text" name="login" class="popup__button popup__button_type_text"
+                                    placeholder="Имя пользователя / эл.почта" required>
+                            </div>
+                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                    name="password" class="popup__button popup__button_type_text" placeholder="Пароль"
+                                    autocomplete="on" required></div>
+                        </form>
                         <div class="popup__check">
                             <div>
-                                <input type="checkbox" id="check" name="check" class="popup__check-button">
+                                <input type="checkbox" id="check" name="check" class="popup__check-button" required>
                                 <label for="check" class="popup__check-text">Запомнить меня</label>
                             </div>
                             <p class="popup__check-text popup__check-link">Восстановить пароль?</p>
@@ -53,23 +54,30 @@
                             <button type="button"
                                 class="popup__button popup__text popup__button_type_reg popup__button_type_reg-active">Зарегистрироваться</button>
                         </div>
-                        <div>
-                            <img src="./images/login.svg" alt="" class="popup__img-login">
-                            <input type="text" class="popup__button popup__button_type_text" placeholder="Логин">
-                        </div>
-                        <div><img src="./images/email.svg" alt="" class="popup__img-login"><input type="email"
-                                class="popup__button popup__button_type_text" placeholder="Email">
-                        </div>
-                        <div><img src="./images/name.svg" alt="" class="popup__img-login"><input type="text"
-                                class="popup__button popup__button_type_text" placeholder="Ваше имя"></div>
-                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                class="popup__button popup__button_type_text" placeholder="Пароль"></div>
-                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                class="popup__button popup__button_type_text" placeholder="Подтверждение пароля"></div>
+                        <form>
+                            <div>
+                                <img src="./images/login.svg" alt="" class="popup__img-login">
+                                <input type="text" name="text" class="popup__button popup__button_type_text"
+                                    placeholder="Логин" required>
+                            </div>
+                            <div><img src="./images/email.svg" alt="" class="popup__img-login"><input type="email"
+                                    name="email" class="popup__button popup__button_type_text" placeholder="Email"
+                                    required>
+                            </div>
+                            <div><img src="./images/name.svg" alt="" class="popup__img-login"><input type="text"
+                                    name="text" class="popup__button popup__button_type_text" placeholder="Ваше имя"
+                                    required></div>
+                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                    name="password" class="popup__button popup__button_type_text" placeholder="Пароль"
+                                    required></div>
+                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                    name="password" class="popup__button popup__button_type_text"
+                                    placeholder="Подтверждение пароля" required></div>
+                        </form>
 
                         <div class="popup__check">
                             <div>
-                                <input type="checkbox" id="checkReg" name="check" class="popup__check-button">
+                                <input type="checkbox" id="checkReg" name="check" class="popup__check-button" required>
                                 <label for="checkReg" class="popup__check-text">Я&nbsp;принимаю</label>
                             </div>
                             <a href="https://policies.google.com/?hl=ru" target="_blank" rel="noopener noreferrer"
@@ -85,18 +93,24 @@
                     <div class="popup__form-reconstPass">
                         <button class="popup__button popup__text popup__button_type_reconst">
                             Восстановление пароля</button>
-                        <div><img src="./images/email.svg" alt="" class="popup__img-login"><input type="email"
-                                class="popup__button popup__button_type_text" placeholder="Email">
-                        </div>
-                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                class="popup__button popup__button_type_text" placeholder="Новый пароль"></div>
-                        <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                class="popup__button popup__button_type_text" placeholder="Подтверждение пароля"></div>
+                        <form>
+                            <div><img src="./images/email.svg" alt="" class="popup__img-login"><input type="email"
+                                    name="email" class="popup__button popup__button_type_text" placeholder="Email"
+                                    required>
+                            </div>
+                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                    name="password" class="popup__button popup__button_type_text"
+                                    placeholder="Новый пароль" required>
+                            </div>
+                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
+                                    name="password" class="popup__button popup__button_type_text"
+                                    placeholder="Подтверждение пароля" required></div>
+                        </form>
                         <button
                             class="popup__button popup__text popup__button_type_enter popup__button_type_enter-reconst">Восстановить
                             пароль</button>
                     </div>
-                </form>
+                </div>
             </div>
 
             <ul class="header__lang-links">
