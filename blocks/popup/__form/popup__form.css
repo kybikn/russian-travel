@@ -1,6 +1,6 @@
 .popup__form {
   /* height: 700px; */
-  width: 600px;
+  max-width: 600px;
   display: flex;
   justify-content: space-between;
   background: #e5e5e5;

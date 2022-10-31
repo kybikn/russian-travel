@@ -1,10 +1,10 @@
 .popup__form-reconstPass {
   display: none;
-  height: 450px;
+  height: 400px;
   width: 550px;
   justify-content: space-between;
   flex-direction: column;
   text-align: center;
-  padding: 45px 25px;
+  padding: 25px;
   margin: 0 auto;
 }
