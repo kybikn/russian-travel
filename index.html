@@ -19,22 +19,26 @@
 
             <div class="popup">
                 <div class="popup__form">
-                    <img src="./images/close.svg" alt="Кнопка закрыть" class="popup__close">
+                    <img src="./images/close.svg" alt="кнопка закрыть" class="popup__close">
                     <div class="popup__form-signIn">
                         <div class="popup__button-box">
+                            <button type="button" class="popup__button popup__text popup__button_type_signIn">Войти
+                            </button>
                             <button type="button"
-                                class="popup__button popup__text popup__button_type_signIn">Войти</button>
-                            <button type="button"
-                                class="popup__button popup__text popup__button_type_reg">Зарегистрироваться</button>
+                                class="popup__button popup__text popup__button_type_reg">Зарегистрироваться
+                            </button>
                         </div>
                         <form>
-                            <div><img src="./images/name.svg" alt="" class="popup__img-login">
+                            <div>
+                                <img src="./images/name.svg" alt="логин" class="popup__img-login">
                                 <input type="text" name="login" class="popup__button popup__button_type_text"
                                     placeholder="Имя пользователя / эл.почта" required>
                             </div>
-                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                    name="password" class="popup__button popup__button_type_text" placeholder="Пароль"
-                                    autocomplete="on" required></div>
+                            <div>
+                                <img src="./images/key.svg" alt="пароль" class="popup__img-login">
+                                <input type="password" name="password" class="popup__button popup__button_type_text"
+                                    placeholder="Пароль" autocomplete="on" required>
+                            </div>
                         </form>
                         <div class="popup__check">
                             <div>
@@ -44,7 +48,8 @@
                             <p class="popup__check-text popup__check-link">Восстановить пароль?</p>
                         </div>
                         <button
-                            class="popup__button popup__text popup__button_type_enter popup__button_type_enter-signIn">Войти</button>
+                            class="popup__button popup__text popup__button_type_enter popup__button_type_enter-signIn"
+                            type="submit">Войти</button>
                     </div>
 
                     <div class="popup__form-reg">
@@ -56,23 +61,30 @@
                         </div>
                         <form>
                             <div>
-                                <img src="./images/login.svg" alt="" class="popup__img-login">
+                                <img src="./images/login.svg" alt="иконка логина" class="popup__img-login">
                                 <input type="text" name="text" class="popup__button popup__button_type_text"
                                     placeholder="Логин" required>
                             </div>
-                            <div><img src="./images/email.svg" alt="" class="popup__img-login"><input type="email"
-                                    name="email" class="popup__button popup__button_type_text" placeholder="Email"
-                                    required>
+                            <div>
+                                <img src="./images/email.svg" alt="иконка имейла" class="popup__img-login">
+                                <input type="email" name="email" class="popup__button popup__button_type_text"
+                                    placeholder="Email" required>
                             </div>
-                            <div><img src="./images/name.svg" alt="" class="popup__img-login"><input type="text"
-                                    name="text" class="popup__button popup__button_type_text" placeholder="Ваше имя"
-                                    required></div>
-                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                    name="password" class="popup__button popup__button_type_text" placeholder="Пароль"
-                                    required></div>
-                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                    name="password" class="popup__button popup__button_type_text"
-                                    placeholder="Подтверждение пароля" required></div>
+                            <div>
+                                <img src="./images/name.svg" alt="иконка имени" class="popup__img-login">
+                                <input type="text" name="text" class="popup__button popup__button_type_text"
+                                    placeholder="Ваше имя" required>
+                            </div>
+                            <div>
+                                <img src="./images/key.svg" alt="иконка пароля" class="popup__img-login">
+                                <input type="password" name="password" class="popup__button popup__button_type_text"
+                                    placeholder="Пароль" required>
+                            </div>
+                            <div>
+                                <img src="./images/key.svg" alt="иконка пароля" class="popup__img-login">
+                                <input type="password" name="password" class="popup__button popup__button_type_text"
+                                    placeholder="Подтверждение пароля" required>
+                            </div>
                         </form>
 
                         <div class="popup__check">
@@ -94,17 +106,21 @@
                         <button class="popup__button popup__text popup__button_type_reconst">
                             Восстановление пароля</button>
                         <form>
-                            <div><img src="./images/email.svg" alt="" class="popup__img-login"><input type="email"
-                                    name="email" class="popup__button popup__button_type_text" placeholder="Email"
-                                    required>
+                            <div>
+                                <img src="./images/email.svg" alt="иконка имейла" class="popup__img-login">
+                                <input type="email" name="email" class="popup__button popup__button_type_text"
+                                    placeholder="Email" required>
                             </div>
-                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                    name="password" class="popup__button popup__button_type_text"
+                            <div>
+                                <img src="./images/key.svg" alt="иконка пароля" class="popup__img-login">
+                                <input type="password" name="password" class="popup__button popup__button_type_text"
                                     placeholder="Новый пароль" required>
                             </div>
-                            <div><img src="./images/key.svg" alt="" class="popup__img-login"><input type="password"
-                                    name="password" class="popup__button popup__button_type_text"
-                                    placeholder="Подтверждение пароля" required></div>
+                            <div>
+                                <img src="./images/key.svg" alt="иконка пароля" class="popup__img-login">
+                                <input type="password" name="password" class="popup__button popup__button_type_text"
+                                    placeholder="Подтверждение пароля" required>
+                            </div>
                         </form>
                         <button
                             class="popup__button popup__text popup__button_type_enter popup__button_type_enter-reconst">Восстановить
@@ -114,15 +130,20 @@
             </div>
 
             <ul class="header__lang-links">
-                <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
-                <li><a href="#" class="header__lang-link">En</a></li>
+                <li>
+                    <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+                </li>
+                <li>
+                    <a href="#" class="header__lang-link">En</a>
+                </li>
             </ul>
         </header>
 
         <main class="main">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-                <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
+                <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
+                </p>
                 <figure class="lead__content">
                     <img src="./images/lead-polka.jpg" alt="спящая женщина в вагоне поезда" class="lead__image">
                     <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
@@ -139,45 +160,72 @@
                     в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                     интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li class="intro__item">Часовых поясов<span class="intro__number"> 11</span></li>
-                    <li class="intro__item">Объектов природного наследия ЮНЕСКО<span class="intro__number"> 12</span>
+                    <li class="intro__item">Часовых поясов
+                        <span class="intro__number"> 11</span>
                     </li>
-                    <li class="intro__item">Объектов культурного наследия ЮНЕСКО<span class="intro__number"> 16</span>
+                    <li class="intro__item">Объектов природного наследия ЮНЕСКО
+                        <span class="intro__number"> 12</span>
                     </li>
-                    <li class="intro__item">Природных заповедников<span class="intro__number"> 105</span></li>
-                    <li class="intro__item">Аэропортов<span class="intro__number"> 241</span></li>
+                    <li class="intro__item">Объектов культурного наследия ЮНЕСКО
+                        <span class="intro__number"> 16</span>
+                    </li>
+                    <li class="intro__item">Природных заповедников
+                        <span class="intro__number"> 105</span>
+                    </li>
+                    <li class="intro__item">Аэропортов
+                        <span class="intro__number"> 241</span>
+                    </li>
                 </ul>
             </section>
 
             <section class="photo-grid" aria-label="Блок с фото">
                 <ul class="photo-grid__list">
-                    <li><img src="./images/photo-grid-train.jpg" alt="вид на озеро из окна поезда"
+                    <li>
+                        <img src="./images/photo-grid-train.jpg" alt="вид на озеро из окна поезда"
                             class="photo-grid__item">
                     </li>
-                    <li><img src="./images/photo-grid-atharva-tulsi.jpg" alt="снежные горы в облаках"
-                            class="photo-grid__item"></li>
-                    <li><img src="./images/photo-grid-tuman.jpg" alt="волк на стоге сена в тумане"
+                    <li>
+                        <img src="./images/photo-grid-atharva-tulsi.jpg" alt="снежные горы в облаках"
                             class="photo-grid__item">
                     </li>
-                    <li><img src="./images/photo-grid-sochi.jpg" alt="хвойный лес на склоне горы в тумане"
-                            class="photo-grid__item"></li>
-                    <li><img src="./images/photo-grid-arisa.jpg" alt="колесо машины на прозрачном льду"
-                            class="photo-grid__item"></li>
-                    <li><img src="./images/photo-grid-baikal.jpg" alt="берег Байкала в окружении горных холмов"
-                            class="photo-grid__item"></li>
-                    <li><img src="./images/photo-grid-elbrus.jpg" alt="снежные вершины Эльбруса"
+                    <li>
+                        <img src="./images/photo-grid-tuman.jpg" alt="волк на стоге сена в тумане"
                             class="photo-grid__item">
                     </li>
-                    <li><img src="./images/photo-grid-kondratiev.jpg" alt="знак пешеходного перехода и волнорезы"
-                            class="photo-grid__item"></li>
-                    <li><img src="./images/photo-grid-kamchatka-1.jpg" alt="горы Камчатки в тумане"
-                            class="photo-grid__item"></li>
-                    <li><img src="./images/photo-grid-kamchatka-2.jpg" alt="высокая гора на Камчатке"
-                            class="photo-grid__item"></li>
-                    <li><img src="./images/photo-grid-baikal-2.jpg" alt="снежные хребты Байкала"
+                    <li>
+                        <img src="./images/photo-grid-sochi.jpg" alt="хвойный лес на склоне горы в тумане"
                             class="photo-grid__item">
                     </li>
-                    <li><img src="./images/photo-grid-ergaki.jpg" alt="парк Ергаки в тумане" class="photo-grid__item">
+                    <li>
+                        <img src="./images/photo-grid-arisa.jpg" alt="колесо машины на прозрачном льду"
+                            class="photo-grid__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-baikal.jpg" alt="берег Байкала в окружении горных холмов"
+                            class="photo-grid__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-elbrus.jpg" alt="снежные вершины Эльбруса"
+                            class="photo-grid__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-kondratiev.jpg" alt="знак пешеходного перехода и волнорезы"
+                            class="photo-grid__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-kamchatka-1.jpg" alt="горы Камчатки в тумане"
+                            class="photo-grid__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-kamchatka-2.jpg" alt="высокая гора на Камчатке"
+                            class="photo-grid__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-baikal-2.jpg" alt="снежные хребты Байкала"
+                            class="photo-grid__item">
+                    </li>
+                    <li>
+                        <img src="./images/photo-grid-ergaki.jpg" alt="парк Ергаки в тумане" class="photo-grid__item">
                     </li>
                 </ul>
             </section>
@@ -300,19 +348,29 @@
         <footer class="footer">
             <nav>
                 <ul class="footer__links">
-                    <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
+                    <li>
+                        <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты
+                        </a>
                     </li>
-                    <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
+                    <li>
+                        <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода
+                        </a>
                     </li>
-                    <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
+                    <li>
+                        <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание
+                        </a>
                     </li>
-                    <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
+                    <li>
+                        <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь
+                        </a>
                     </li>
-                    <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+                    <li>
+                        <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия
+                        </a>
                     </li>
                 </ul>
             </nav>
-            <p class="footer__copyright">© 2022. Анастасия Кубатина</p>
+            <p class="footer__copyright">&copy; 2022. Анастасия Кубатина</p>
         </footer>
     </div>
     <script src="./pages/script.js"></script>
