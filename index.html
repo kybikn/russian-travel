@@ -21,14 +21,15 @@
                 <div class="popup__form">
                     <img src="./images/close.svg" alt="кнопка закрыть" class="popup__close">
                     <div class="popup__form-signIn">
-                        <div class="popup__button-box">
-                            <button type="button" class="popup__button popup__text popup__button_type_signIn">Войти
-                            </button>
-                            <button type="button"
-                                class="popup__button popup__text popup__button_type_reg">Зарегистрироваться
-                            </button>
-                        </div>
                         <form>
+                            <div class="popup__button-box">
+                                <button type="button" class="popup__button popup__text popup__button_type_signIn">Войти
+                                </button>
+                                <button type="button"
+                                    class="popup__button popup__text popup__button_type_reg">Зарегистрироваться
+                                </button>
+                            </div>
+                            <!-- <form> -->
                             <div>
                                 <img src="./images/name.svg" alt="логин" class="popup__img-login">
                                 <input type="text" name="login" class="popup__button popup__button_type_text"
@@ -39,17 +40,18 @@
                                 <input type="password" name="password" class="popup__button popup__button_type_text"
                                     placeholder="Пароль" autocomplete="on" required>
                             </div>
-                        </form>
-                        <div class="popup__check">
-                            <div>
-                                <input type="checkbox" id="check" name="check" class="popup__check-button" required>
-                                <label for="check" class="popup__check-text">Запомнить меня</label>
+                            <!-- </form> -->
+                            <div class="popup__check">
+                                <div>
+                                    <input type="checkbox" id="check" name="check" class="popup__check-button" required>
+                                    <label for="check" class="popup__check-text">Запомнить меня</label>
+                                </div>
+                                <p class="popup__check-text popup__check-link">Восстановить пароль?</p>
                             </div>
-                            <p class="popup__check-text popup__check-link">Восстановить пароль?</p>
-                        </div>
-                        <button
-                            class="popup__button popup__text popup__button_type_enter popup__button_type_enter-signIn"
-                            type="submit">Войти</button>
+                            <button
+                                class="popup__button popup__text popup__button_type_enter popup__button_type_enter-signIn"
+                                type="submit">Войти</button>
+                        </form>
                     </div>
 
                     <div class="popup__form-reg">

@@ -1,6 +1,6 @@
 .popup__form-signIn {
   display: none;
-  height: 400px;
+  /* height: 400px; */
   width: 550px;
   justify-content: space-between;
   flex-direction: column;
